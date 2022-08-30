@@ -111,7 +111,8 @@ section.links {
     justify-content: center;
 }
 
-section.links button {
+section.links .button {
+    text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 5px;
     margin: 0 5% 5% 5%;
@@ -126,7 +127,7 @@ section.links button {
     transition: color .3s, border .3s;
 }
 
-section.links button:hover {
+section.links .button:hover {
     color: var(--select-green);
     border: solid 3px var(--select-green);
 }
